@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSDApp.Android", "SSDApp\SSDApp.Android\SSDApp.Android.csproj", "{5BD1AC77-E0FB-4FCF-9C2D-0234FCE6AB92}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SSDApp", "SSDApp\SSDApp\SSDApp.shproj", "{521B66E4-CE06-4C7C-A503-01E2CFB246DF}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SSDApp\SSDApp\SSDApp.projitems*{521b66e4-ce06-4c7c-a503-01e2cfb246df}*SharedItemsImports = 13
+		SSDApp\SSDApp\SSDApp.projitems*{5bd1ac77-e0fb-4fcf-9c2d-0234fce6ab92}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BD1AC77-E0FB-4FCF-9C2D-0234FCE6AB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD1AC77-E0FB-4FCF-9C2D-0234FCE6AB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD1AC77-E0FB-4FCF-9C2D-0234FCE6AB92}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5BD1AC77-E0FB-4FCF-9C2D-0234FCE6AB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD1AC77-E0FB-4FCF-9C2D-0234FCE6AB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD1AC77-E0FB-4FCF-9C2D-0234FCE6AB92}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C6FCB00-6B9B-47E1-B2A1-20F2BED070CF}
+	EndGlobalSection
+EndGlobal
