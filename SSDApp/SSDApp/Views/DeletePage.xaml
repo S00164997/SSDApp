@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SSDApp.Views.DeletePage"
+             Title="Delete a Person">
+    <ContentPage.Content>
+        <ListView BackgroundColor="#3897f0" x:Name="deleteView" ItemSelected="OnItemSelected" SeparatorColor="White">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <TextCell Text="{Binding FirstName}" Detail="{Binding PPSN}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

@@ -4,8 +4,16 @@
              xmlns:local="clr-namespace:SSDApp"
              x:Class="SSDApp.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+	<Label Text="Welcome to SSD App!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+    <Label Text="S00164997 Michael Chrystal"/>
+    <StackLayout>
 
+        <Button Text="Create Page" Clicked="CreateClicked"/>
+        <Button Text="Read Page" Clicked="ReadClicked"/>
+        <Button Text="Update Page" Clicked="UpdateClicked"/>
+        <Button Text="Delete Page" Clicked="DeleteClicked"/>
+        
+    </StackLayout>
 </ContentPage>
