@@ -15,9 +15,9 @@ namespace SSDApp.Views
 	public partial class UpdatePage : ContentPage
 	{
         public Models.Person editSelection = new Person();
-        public UpdatePage (Models.Person selection)
+        public UpdatePage (Models.Person selection)// acceps a person object
 		{
-			InitializeComponent ();
+			InitializeComponent ();         // this page updates the person object
 
             FirstName.Text = selection.FirstName;
             LastName.Text = selection.LastName;
@@ -48,9 +48,9 @@ namespace SSDApp.Views
 
             editSelection.FirstName = FirstName.Text;
             editSelection.LastName = LastName.Text;
-            editSelection.Age = Convert.ToInt32(Age.Text);
+            editSelection.Age = (Age.Text);
             editSelection.PPSN = PPSN.Text;
-            editSelection.CardNumber = Convert.ToInt32(CardNumber.Text);
+            editSelection.CardNumber = (CardNumber.Text);
 
             AzureDataServicePerson azureDataServicePerson;
             azureDataServicePerson = new AzureDataServicePerson();

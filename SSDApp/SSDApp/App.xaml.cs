@@ -13,7 +13,7 @@ namespace SSDApp
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage( new SSDApp.MainPage());
+			MainPage = new NavigationPage( new SSDApp.Views.LoginPage());
 		}
 
 		protected override void OnStart ()

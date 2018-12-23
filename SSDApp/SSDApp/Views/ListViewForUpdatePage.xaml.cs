@@ -42,9 +42,9 @@ namespace SSDApp.Views
         {
             if (e.SelectedItem != null)
             {
-                var selection = e.SelectedItem as Person;
+                var selection = e.SelectedItem as Person;//load produts
                 // await DisplayAlert("mm", "Product: " + selection.Id, "ok");
-                await Navigation.PushAsync(new UpdatePage(selection));
+                await Navigation.PushAsync(new UpdatePage(selection));//pass details to the update page
             }
         }
     }

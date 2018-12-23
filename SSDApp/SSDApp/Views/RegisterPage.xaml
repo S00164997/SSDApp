@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SSDApp.Views.RegisterPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="12"
+                     Padding="24"
+                     BackgroundColor="White"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+                <StackLayout>
+                    <Label Text="First Name" />
+                    <Entry x:Name="fName"
+                       FontSize="30"
+                       Placeholder="Joe" />
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Last Name" />
+                    <Entry x:Name="lName"
+                       FontSize="30"
+                       Placeholder="Bloggs" />
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Email" />
+                    <Entry x:Name="email"
+                       FontSize="30"
+                       Text="chloebeatty00@gmail.com" />
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Password" />
+                    <Entry x:Name="password"
+                        FontSize="30"
+                       IsPassword="True"
+                       Text="michaelchrystal" />
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Confirm Password" />
+                    <Entry x:Name="ConfirmPassword"
+                        FontSize="30"
+                       IsPassword="True"
+                       Text="password123" />
+                </StackLayout>
+                <Button BackgroundColor="DodgerBlue"
+                    FontSize="30"
+                    Text="Register"
+                    TextColor="White"
+                    Clicked="registerClicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

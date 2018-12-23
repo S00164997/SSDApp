@@ -17,13 +17,13 @@ namespace SSDApp.Models
         public string LastName { get; set; }
 
         [Newtonsoft.Json.JsonProperty("Age")]
-        public int Age { get; set; }
+        public string Age { get; set; }
 
         [Newtonsoft.Json.JsonProperty("PPSN")]
         public string PPSN { get; set; }
 
         [Newtonsoft.Json.JsonProperty("CardNumber")]
-        public int CardNumber { get; set; }
+        public string CardNumber { get; set; }
 
        
 
@@ -31,7 +31,7 @@ namespace SSDApp.Models
         {
         }
 
-        public Person(string id, string firstName, string lastName, int age, string ppsn, int cardNumber)
+        public Person(string id, string firstName, string lastName, string age, string ppsn, string cardNumber)
         {
             this.Id = id;
             this.FirstName = firstName;

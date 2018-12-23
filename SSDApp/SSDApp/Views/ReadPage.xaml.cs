@@ -21,7 +21,7 @@ namespace SSDApp.Views
 		{
             ListViewPersons.Clear();
             InitializeComponent();
-            LoadPersons();
+            LoadPersons();                              ///this page loads the person object onto the page
             listView.ItemsSource = ListViewPersons;
         }
 

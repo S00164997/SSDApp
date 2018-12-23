@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SSDApp.Views.LoginPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Margin="12"
+                     Padding="24"
+                     BackgroundColor="White"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <StackLayout>
+                <Label Text="Login" />
+                <Entry x:Name="email" 
+                        FontSize="30"
+                       Text="S00164997@mail.itsligo.ie" />
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Password" />
+                <Entry x:Name="password"
+                        FontSize="30"
+                       IsPassword="True"
+                       Text="Password" />
+            </StackLayout>
+            <Button BackgroundColor="DodgerBlue"
+                    FontSize="30"
+                    Text="Register"
+                    TextColor="White"
+                        Clicked="Register"/>
+            <Button BackgroundColor="DodgerBlue"
+                    FontSize="30"
+                    Text="Login"
+                    TextColor="White"
+                        Clicked="loginClicked"/>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

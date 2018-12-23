@@ -24,7 +24,7 @@ namespace SSDApp.Views
 
         public void LoadProducts()
         {
-            AzureDataServicePerson azureDataServicePerson;
+            AzureDataServicePerson azureDataServicePerson;//load onto page
             azureDataServicePerson = new AzureDataServicePerson();
 
             try
@@ -43,7 +43,7 @@ namespace SSDApp.Views
             {
                 var selection = e.SelectedItem as Person;
                 var res =await DisplayAlert("Delete Person!!!", "Are you sure you want to delete: " + selection.FirstName, "ok", "Cancel");
-                if (res ==true)
+                if (res ==true)//if ok is seected delete
                 {
                     AzureDataServicePerson azureDataServicePerson;
                     azureDataServicePerson = new AzureDataServicePerson();
